@@ -1,0 +1,23 @@
+.AlertDay {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AlertDay__day {
+  margin: 1rem 0 0;
+  font-size: 1rem;
+}
+
+.AlertDay__hour {
+  margin: 0 0 5rem 0;
+  font-size: 3rem;
+}
+
+.AlertDay__welcome-message {
+  margin: 1rem 0;
+  font-size: 3rem;
+}

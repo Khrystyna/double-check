@@ -1,0 +1,12 @@
+.Profile {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.Profile__avatar {
+  display: block;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}

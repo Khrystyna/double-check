@@ -1,0 +1,18 @@
+.form {
+  min-width: 400px;
+  margin: 20px auto;
+}
+
+.form-control {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.form-control.form-control__full {
+  display: block;
+  width: 100%;
+}
+
+.form--login {
+
+}

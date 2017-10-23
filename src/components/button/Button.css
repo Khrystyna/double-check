@@ -1,0 +1,52 @@
+.Button {
+  display: inline-block;
+
+  padding: 0.8rem 2rem;
+
+  background: #ea266a;
+  border: 1px solid transparent;
+  border-radius: 20px;
+
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+
+  transition: background 0.2s;
+
+  text-decoration: none;
+  cursor: default;
+}
+
+.Button:focus {
+  outline: none;
+}
+
+
+.Button:hover,
+.Button:active {
+  background: rgba(234, 38, 106, 0.8);
+  color: #fff;
+  text-decoration: none;
+}
+
+.Button--full {
+  display: block;
+  width: 100%;
+}
+
+.Button--full + .Button--full { margin-top: 20px; }
+
+
+.Button--small {
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.Button--large {
+  padding: 1rem 2.5rem;
+}
